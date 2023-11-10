@@ -55,6 +55,11 @@ int main()
 			std::cout << "Australia, Antarctica, Aruba, Anguilla Leeward Islands, Antigua and Barbuda, American Samoa" << std::endl;
 		}
 	}
+
+	if (letter == 'x' || letter == 'X')
+	{
+		std::cout << "there is no countries that begin with X";
+	}
 	
 	if (letter == 'y' || letter == 'Y')
 	{

@@ -1,7 +1,7 @@
 // program to find countries in Pete's World
 // date November 2022
 // author Pete Lowe
-// Lee Lindsay
+// add your name here
 // Lee Ryan
 // estimated time 120 minutes
 // actual time ??
@@ -22,15 +22,15 @@ int main()
 		std::cout << "You need to select a number between 1 and 5" << std::endl;
 		return 0;
 	}
-	std::cout << "Pick a letter from A to A or Z to Z" << std::endl; // change this line each iteration
+	std::cout << "Pick a letter from A to A or X to Z" << std::endl; // change this line each iteration
 	std::cin >> letter;
 	if (letter < 'A' || letter > 'Z') // not a capital letter
-	{
+	{ 
 		if (letter < 'a' || letter > 'z') // not a lower case letter
 		{
 			std::cout << "You need to select a letter from A to Z" << std::endl;
-			return 0;
-		}
+			return 0; 
+		}		
 	}
 	if (letter == 'a' || letter == 'A') // written by Pete
 	{
@@ -58,16 +58,9 @@ int main()
 
 	if (letter == 'x' || letter == 'X')
 	{
-<<<<<<< HEAD
-		std::cout << "Theres no countries that begin with x ";
-	}
-
-
-=======
 		std::cout << "there is no countries that begin with X";
 	}
 	
->>>>>>> y.lee.l
 	if (letter == 'y' || letter == 'Y')
 	{
 		if (region == 1)

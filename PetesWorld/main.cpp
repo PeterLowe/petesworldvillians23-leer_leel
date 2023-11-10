@@ -58,10 +58,16 @@ int main()
 
 	if (letter == 'x' || letter == 'X')
 	{
+<<<<<<< HEAD
 		std::cout << "Theres no countries that begin with x ";
 	}
 
 
+=======
+		std::cout << "there is no countries that begin with X";
+	}
+	
+>>>>>>> y.lee.l
 	if (letter == 'y' || letter == 'Y')
 	{
 		if (region == 1)

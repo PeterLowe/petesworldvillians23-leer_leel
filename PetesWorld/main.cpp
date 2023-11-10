@@ -1,8 +1,8 @@
 // program to find countries in Pete's World
 // date November 2022
 // author Pete Lowe
-// Lee Lindsay 
-//  or here
+// add your name here
+// Lee Ryan
 // estimated time 120 minutes
 // actual time ??
 // version 1.0

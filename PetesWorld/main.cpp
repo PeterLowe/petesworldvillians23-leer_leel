@@ -1,7 +1,7 @@
 // program to find countries in Pete's World
 // date November 2022
 // author Pete Lowe
-// add your name here
+// Lee Lindsay
 // Lee Ryan
 // estimated time 120 minutes
 // actual time ??
@@ -25,12 +25,12 @@ int main()
 	std::cout << "Pick a letter from A to A or Z to Z" << std::endl; // change this line each iteration
 	std::cin >> letter;
 	if (letter < 'A' || letter > 'Z') // not a capital letter
-	{ 
+	{
 		if (letter < 'a' || letter > 'z') // not a lower case letter
 		{
 			std::cout << "You need to select a letter from A to Z" << std::endl;
-			return 0; 
-		}		
+			return 0;
+		}
 	}
 	if (letter == 'a' || letter == 'A') // written by Pete
 	{
@@ -55,7 +55,13 @@ int main()
 			std::cout << "Australia, Antarctica, Aruba, Anguilla Leeward Islands, Antigua and Barbuda, American Samoa" << std::endl;
 		}
 	}
-	
+
+	if (letter == 'x' || letter == 'X')
+	{
+		std::cout << "Theres no countries that begin with x ";
+	}
+
+
 	if (letter == 'y' || letter == 'Y')
 	{
 		if (region == 1)
